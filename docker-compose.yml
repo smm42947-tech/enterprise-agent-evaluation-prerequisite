@@ -1,0 +1,11 @@
+services:
+  agent-a:
+    build: .
+    command: uvicorn agents.version_a.api:app --host 0.0.0.0 --port 8001
+    ports:
+      - "8001:8001"
+  agent-b:
+    build: .
+    command: uvicorn agents.version_b.api:app --host 0.0.0.0 --port 8002
+    ports:
+      - "8002:8002"

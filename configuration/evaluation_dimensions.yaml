@@ -1,0 +1,9 @@
+dimensions:
+  accuracy:
+    description: Factual alignment with the golden answer and expected facts.
+  groundedness:
+    description: Support from approved retrieved content.
+  relevance:
+    description: Directness and applicability to the user question.
+  completeness:
+    description: Coverage of required facts and process steps.

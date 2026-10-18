@@ -1,0 +1,6 @@
+currency: USD
+note: Synthetic hackathon pricing, not provider pricing.
+models:
+  deterministic-hackathon-agent:
+    input_cost_per_1000_tokens: 0.001
+    output_cost_per_1000_tokens: 0.002

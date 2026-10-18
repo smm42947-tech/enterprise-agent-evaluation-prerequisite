@@ -1,0 +1,21 @@
+{
+  "test_case_id": "TC001",
+  "agent_version": "support-agent-v1",
+  "response": "A critical incident causing major business impact.",
+  "retrieved_context": [
+    {
+      "document_id": "KB-INC-001",
+      "document_name": "Incident Severity Matrix",
+      "content": "Synthetic approved content"
+    }
+  ],
+  "citations": [
+    "KB-INC-001"
+  ],
+  "input_tokens": 7,
+  "output_tokens": 8,
+  "total_tokens": 15,
+  "model": "deterministic-hackathon-agent",
+  "latency_ms": 1020,
+  "status": "success"
+}

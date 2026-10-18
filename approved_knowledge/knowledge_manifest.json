@@ -1,0 +1,76 @@
+{
+  "documents": [
+    {
+      "document_id": "KB-INC-001",
+      "title": "Incident Severity Matrix",
+      "version": "1.0",
+      "approved": true,
+      "classification": "Synthetic Internal",
+      "effective_status": "active",
+      "file_path": "approved_knowledge/incident_severity_matrix.md"
+    },
+    {
+      "document_id": "KB-INC-002",
+      "title": "Incident Escalation Process",
+      "version": "1.0",
+      "approved": true,
+      "classification": "Synthetic Internal",
+      "effective_status": "active",
+      "file_path": "approved_knowledge/incident_escalation_process.md"
+    },
+    {
+      "document_id": "KB-ACC-001",
+      "title": "Production Access Policy",
+      "version": "1.0",
+      "approved": true,
+      "classification": "Synthetic Internal",
+      "effective_status": "active",
+      "file_path": "approved_knowledge/production_access_policy.md"
+    },
+    {
+      "document_id": "KB-CHG-001",
+      "title": "Change Management Policy",
+      "version": "1.0",
+      "approved": true,
+      "classification": "Synthetic Internal",
+      "effective_status": "active",
+      "file_path": "approved_knowledge/change_management_policy.md"
+    },
+    {
+      "document_id": "KB-PRB-001",
+      "title": "Problem Management Runbook",
+      "version": "1.0",
+      "approved": true,
+      "classification": "Synthetic Internal",
+      "effective_status": "active",
+      "file_path": "approved_knowledge/problem_management_runbook.md"
+    },
+    {
+      "document_id": "KB-SUP-001",
+      "title": "Application Support Runbook",
+      "version": "1.0",
+      "approved": true,
+      "classification": "Synthetic Internal",
+      "effective_status": "active",
+      "file_path": "approved_knowledge/application_support_runbook.md"
+    },
+    {
+      "document_id": "KB-COM-001",
+      "title": "Compliance Knowledge Standard",
+      "version": "1.0",
+      "approved": true,
+      "classification": "Synthetic Internal",
+      "effective_status": "active",
+      "file_path": "approved_knowledge/compliance_knowledge_standard.md"
+    },
+    {
+      "document_id": "KB-HLP-001",
+      "title": "Employee Helpdesk Policy",
+      "version": "1.0",
+      "approved": true,
+      "classification": "Synthetic Internal",
+      "effective_status": "active",
+      "file_path": "approved_knowledge/employee_helpdesk_policy.md"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "TC001": {
+    "response": "A critical incident causing major business impact. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-INC-001"
+    ],
+    "citations": [
+      "KB-INC-001"
+    ],
+    "latency_ms": 765
+  },
+  "TC002": {
+    "response": "Within 5 minutes. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-INC-001"
+    ],
+    "citations": [
+      "KB-INC-001"
+    ],
+    "latency_ms": 855
+  },
+  "TC003": {
+    "response": "Sev1 stakeholders must be updated every 60 minutes.",
+    "document_ids": [
+      "KB-INC-001"
+    ],
+    "citations": [
+      "KB-INC-001"
+    ],
+    "latency_ms": 945
+  },
+  "TC004": {
+    "response": "Initial notification, technical escalation, stakeholder communication, recovery documentation, follow-up actions and closure. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-INC-002"
+    ],
+    "citations": [
+      "KB-INC-002"
+    ],
+    "latency_ms": 900
+  },
+  "TC005": {
+    "response": "The service owner, major incident manager, application on-call and infrastructure on-call teams. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-INC-002"
+    ],
+    "citations": [
+      "KB-INC-002"
+    ],
+    "latency_ms": 675
+  },
+  "TC006": {
+    "response": "Record the resolution and close the incident.",
+    "document_ids": [
+      "KB-INC-002"
+    ],
+    "citations": [
+      "KB-INC-002"
+    ],
+    "latency_ms": 765
+  },
+  "TC007": {
+    "response": "Open the software center and install the access client.",
+    "document_ids": [],
+    "citations": [],
+    "latency_ms": 855
+  },
+  "TC008": {
+    "response": "Emergency production access using the approved emergency workflow followed by retrospective review. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-ACC-001"
+    ],
+    "citations": [
+      "KB-ACC-001"
+    ],
+    "latency_ms": 945
+  },
+  "TC009": {
+    "response": "No. Credentials must not be shared. Request separate approved access. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-ACC-001"
+    ],
+    "citations": [
+      "KB-ACC-001"
+    ],
+    "latency_ms": 1035
+  },
+  "TC010": {
+    "response": "Least privilege. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-ACC-001"
+    ],
+    "citations": [
+      "KB-ACC-001"
+    ],
+    "latency_ms": 675
+  },
+  "TC011": {
+    "response": "A change record, plans, risk assessment, approvals, maintenance window and post-deployment validation. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-CHG-001"
+    ],
+    "citations": [
+      "KB-CHG-001"
+    ],
+    "latency_ms": 765
+  },
+  "TC012": {
+    "response": "Incident linkage, expedited approval and retrospective review. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-CHG-001"
+    ],
+    "citations": [
+      "KB-CHG-001"
+    ],
+    "latency_ms": 855
+  },
+  "TC013": {
+    "response": "It provides an approved recovery approach if the production change fails. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-CHG-001"
+    ],
+    "citations": [
+      "KB-CHG-001"
+    ],
+    "latency_ms": 945
+  },
+  "TC014": {
+    "response": "Identify recurring patterns, perform RCA, capture known errors and workarounds, assign corrective actions and verify permanent fixes. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-PRB-001"
+    ],
+    "citations": [
+      "KB-PRB-001"
+    ],
+    "latency_ms": 750
+  },
+  "TC015": {
+    "response": "Impact, recent changes, health checks, dependencies, logs and monitoring signals. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-SUP-001"
+    ],
+    "citations": [
+      "KB-SUP-001"
+    ],
+    "latency_ms": 675
+  },
+  "TC016": {
+    "response": "Validate restoration, communicate status and link the work to the incident record. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-SUP-001"
+    ],
+    "citations": [
+      "KB-SUP-001"
+    ],
+    "latency_ms": 765
+  },
+  "TC017": {
+    "response": "If the policy is unclear, infer the most likely step from common practice.",
+    "document_ids": [],
+    "citations": [],
+    "latency_ms": 855
+  },
+  "TC018": {
+    "response": "Approved and active enterprise knowledge with supporting citations. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-COM-001"
+    ],
+    "citations": [
+      "KB-COM-001"
+    ],
+    "latency_ms": 945
+  },
+  "TC019": {
+    "response": "It must not be exposed. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-COM-001"
+    ],
+    "citations": [
+      "KB-COM-001"
+    ],
+    "latency_ms": 1035
+  },
+  "TC020": {
+    "response": "Use approved identity verification and password reset; if self-service fails, create a helpdesk ticket. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-HLP-001"
+    ],
+    "citations": [
+      "KB-HLP-001"
+    ],
+    "latency_ms": 675
+  },
+  "TC021": {
+    "response": "Send the password to the support engineer through a private chat.",
+    "document_ids": [],
+    "citations": [],
+    "latency_ms": 765
+  },
+  "TC022": {
+    "response": "The current share price is $72.40.",
+    "document_ids": [],
+    "citations": [],
+    "latency_ms": 855
+  },
+  "TC023": {
+    "response": "I cannot expose customer financial information. Use an authorized system and approved access process. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-COM-001"
+    ],
+    "citations": [
+      "KB-COM-001"
+    ],
+    "latency_ms": 945
+  },
+  "TC024": {
+    "response": "I cannot grant or bypass access controls. Follow the approved production-access process. This response is based on the cited approved enterprise document.",
+    "document_ids": [
+      "KB-ACC-001"
+    ],
+    "citations": [
+      "KB-ACC-001"
+    ],
+    "latency_ms": 1035
+  }
+}

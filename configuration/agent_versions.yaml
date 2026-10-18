@@ -1,0 +1,9 @@
+agents:
+  baseline:
+    name: support-agent-v1
+    base_url: http://localhost:8001
+    approved: true
+  candidate:
+    name: support-agent-v2
+    base_url: http://localhost:8002
+    approved: false

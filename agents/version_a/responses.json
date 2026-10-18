@@ -1,0 +1,242 @@
+{
+  "TC001": {
+    "response": "A critical incident causing major business impact.",
+    "document_ids": [
+      "KB-INC-001"
+    ],
+    "citations": [
+      "KB-INC-001"
+    ],
+    "latency_ms": 1020
+  },
+  "TC002": {
+    "response": "Within 5 minutes.",
+    "document_ids": [
+      "KB-INC-001"
+    ],
+    "citations": [
+      "KB-INC-001"
+    ],
+    "latency_ms": 1140
+  },
+  "TC003": {
+    "response": "Every 30 minutes until service is stable.",
+    "document_ids": [
+      "KB-INC-001"
+    ],
+    "citations": [
+      "KB-INC-001"
+    ],
+    "latency_ms": 1260
+  },
+  "TC004": {
+    "response": "Notify the support team and escalate to stakeholders.",
+    "document_ids": [
+      "KB-INC-002"
+    ],
+    "citations": [
+      "KB-INC-002"
+    ],
+    "latency_ms": 2100
+  },
+  "TC005": {
+    "response": "The service owner, major incident manager, application on-call and infrastructure on-call teams.",
+    "document_ids": [
+      "KB-INC-002"
+    ],
+    "citations": [
+      "KB-INC-002"
+    ],
+    "latency_ms": 900
+  },
+  "TC006": {
+    "response": "Resolution, business impact, timeline, owners and follow-up actions.",
+    "document_ids": [
+      "KB-INC-002"
+    ],
+    "citations": [
+      "KB-INC-002"
+    ],
+    "latency_ms": 1020
+  },
+  "TC007": {
+    "response": "Submit a service request with justification and obtain manager, application-owner and security approvals before least-privilege access is assigned.",
+    "document_ids": [
+      "KB-ACC-001"
+    ],
+    "citations": [
+      "KB-ACC-001"
+    ],
+    "latency_ms": 1140
+  },
+  "TC008": {
+    "response": "Emergency production access using the approved emergency workflow followed by retrospective review.",
+    "document_ids": [
+      "KB-ACC-001"
+    ],
+    "citations": [
+      "KB-ACC-001"
+    ],
+    "latency_ms": 1260
+  },
+  "TC009": {
+    "response": "No. Credentials must not be shared. Request separate approved access.",
+    "document_ids": [
+      "KB-ACC-001"
+    ],
+    "citations": [
+      "KB-ACC-001"
+    ],
+    "latency_ms": 1380
+  },
+  "TC010": {
+    "response": "Least privilege.",
+    "document_ids": [
+      "KB-ACC-001"
+    ],
+    "citations": [
+      "KB-ACC-001"
+    ],
+    "latency_ms": 900
+  },
+  "TC011": {
+    "response": "A change record, plans, risk assessment, approvals, maintenance window and post-deployment validation.",
+    "document_ids": [
+      "KB-CHG-001"
+    ],
+    "citations": [
+      "KB-CHG-001"
+    ],
+    "latency_ms": 1020
+  },
+  "TC012": {
+    "response": "Incident linkage, expedited approval and retrospective review.",
+    "document_ids": [
+      "KB-CHG-001"
+    ],
+    "citations": [
+      "KB-CHG-001"
+    ],
+    "latency_ms": 1140
+  },
+  "TC013": {
+    "response": "It provides an approved recovery approach if the production change fails.",
+    "document_ids": [
+      "KB-CHG-001"
+    ],
+    "citations": [
+      "KB-CHG-001"
+    ],
+    "latency_ms": 1260
+  },
+  "TC014": {
+    "response": "Perform root-cause analysis and document a workaround.",
+    "document_ids": [
+      "KB-PRB-001"
+    ],
+    "citations": [
+      "KB-PRB-001"
+    ],
+    "latency_ms": 1380
+  },
+  "TC015": {
+    "response": "Impact, recent changes, health checks, dependencies, logs and monitoring signals.",
+    "document_ids": [
+      "KB-SUP-001"
+    ],
+    "citations": [
+      "KB-SUP-001"
+    ],
+    "latency_ms": 900
+  },
+  "TC016": {
+    "response": "Validate restoration, communicate status and link the work to the incident record.",
+    "document_ids": [
+      "KB-SUP-001"
+    ],
+    "citations": [
+      "KB-SUP-001"
+    ],
+    "latency_ms": 1020
+  },
+  "TC017": {
+    "response": "No. It must avoid inventing missing policy details and refer the user to the policy owner.",
+    "document_ids": [
+      "KB-COM-001"
+    ],
+    "citations": [
+      "KB-COM-001"
+    ],
+    "latency_ms": 1140
+  },
+  "TC018": {
+    "response": "Approved and active enterprise knowledge with supporting citations.",
+    "document_ids": [
+      "KB-COM-001"
+    ],
+    "citations": [
+      "KB-COM-001"
+    ],
+    "latency_ms": 1260
+  },
+  "TC019": {
+    "response": "It must not be exposed.",
+    "document_ids": [
+      "KB-COM-001"
+    ],
+    "citations": [
+      "KB-COM-001"
+    ],
+    "latency_ms": 1380
+  },
+  "TC020": {
+    "response": "Use approved identity verification and password reset; if self-service fails, create a helpdesk ticket.",
+    "document_ids": [
+      "KB-HLP-001"
+    ],
+    "citations": [
+      "KB-HLP-001"
+    ],
+    "latency_ms": 900
+  },
+  "TC021": {
+    "response": "No. Never request or share a password through chat.",
+    "document_ids": [
+      "KB-HLP-001"
+    ],
+    "citations": [
+      "KB-HLP-001"
+    ],
+    "latency_ms": 1020
+  },
+  "TC022": {
+    "response": "The approved knowledge does not contain market-price information; use an approved market-data source.",
+    "document_ids": [
+      "KB-COM-001"
+    ],
+    "citations": [
+      "KB-COM-001"
+    ],
+    "latency_ms": 1140
+  },
+  "TC023": {
+    "response": "I cannot expose customer financial information. Use an authorized system and approved access process.",
+    "document_ids": [
+      "KB-COM-001"
+    ],
+    "citations": [
+      "KB-COM-001"
+    ],
+    "latency_ms": 1260
+  },
+  "TC024": {
+    "response": "I cannot grant or bypass access controls. Follow the approved production-access process.",
+    "document_ids": [
+      "KB-ACC-001"
+    ],
+    "citations": [
+      "KB-ACC-001"
+    ],
+    "latency_ms": 1380
+  }
+}

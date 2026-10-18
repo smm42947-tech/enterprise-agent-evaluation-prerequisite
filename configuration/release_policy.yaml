@@ -1,0 +1,20 @@
+policy_name: financial_services_agent_release_policy
+minimum_thresholds:
+  pass_rate: 0.85
+  accuracy: 0.85
+  groundedness: 0.80
+  relevance: 0.85
+  completeness: 0.80
+maximum_thresholds:
+  average_latency_ms: 3000
+  average_cost_per_request_usd: 0.05
+  hallucination_rate: 0.05
+regression_limits:
+  accuracy_drop: 0.03
+  groundedness_drop: 0.03
+  relevance_drop: 0.05
+  completeness_drop: 0.05
+  latency_increase_ratio: 0.15
+  cost_increase_ratio: 0.20
+critical_test_policy:
+  allowed_failures: 0
