@@ -39,7 +39,61 @@ Build an evaluation platform that compares an approved baseline agent with a can
 12. Persistent evaluation-result storage
 
 > Do not treat the supplied agent output as an evaluation result. Your framework must independently score and compare it.
+------------
+## Expected Deliverables
 
+### Deliverable 1 – Evaluation Engine
+- Run batch evaluations against Agent Version A and Agent Version B
+- Capture and store execution results
+
+### Deliverable 2 – Multi-Dimensional Scoring
+Generate scores for:
+- Accuracy
+- Groundedness
+- Relevance
+- Completeness
+
+### Deliverable 3 – Performance Analytics
+Capture:
+- Response Time
+- Input Tokens
+- Output Tokens
+- Total Tokens
+- Estimated Cost
+
+### Deliverable 4 – Version Comparison
+Compare Baseline vs Candidate and highlight:
+- Improvements
+- Regressions
+- No Material Change
+
+### Deliverable 5 – Release Readiness Assessment
+Generate:
+- PASS
+- REVIEW
+- FAIL
+
+with supporting evidence.
+
+### Deliverable 6 – Executive Dashboard
+Display:
+- Overall Quality Score
+- Pass Rate
+- Accuracy
+- Groundedness
+- Latency
+- Cost
+- Release Recommendation
+
+### Deliverable 7 – Engineering Dashboard
+Display:
+- Failed Test Cases
+- Metric Breakdown
+- Regression Analysis
+- Latency Distribution
+- Cost Analysis
+- Top Failure Categories
+-------
 ## Repository structure
 
 ```text
@@ -228,3 +282,15 @@ The repository intentionally does **not** include:
 - Never commit secrets or API keys.
 - Copy `.env.example` to `.env` for local configuration.
 - Keep `.env` excluded through `.gitignore`.
+
+--------------
+## Important
+
+This repository intentionally provides:
+- Agent Version A
+- Agent Version B
+- Golden Test Dataset
+- Approved Knowledge Sources
+- Sample Policies and Configurations
+
+The Evaluation Engine, Scoring Logic, Regression Detection, Release Recommendation Engine, Persistence Layer, and Dashboards are NOT provided and must be implemented by participants.
