@@ -16,7 +16,7 @@ Build an evaluation platform that compares an approved baseline agent with a can
   - Version A: approved baseline
   - Version B: candidate release
 - Common REST API contract
-- 24 test-cases golden evaluation dataset in JSON and CSV
+- 24 golden test evaluation dataset in JSON and CSV
 - Synthetic approved knowledge documents
 - Release-policy and sample-pricing configuration
 - Example API client
